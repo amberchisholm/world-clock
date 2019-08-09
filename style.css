@@ -7,10 +7,14 @@ body {
 
 .container { 
 display: grid; 
-grid-template-columns: 10fr 10fr; 
-grid-template-rows: 20fr 20fr;
+grid-template-columns: 1fr 1fr; 
+grid-template-rows: 1fr 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+/*grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));*/
+/*justify-items: stretch;*/
+width: 100vw;
+height: 100vh;
 }
 .div1 { grid-area: 1 / 1 / 2 / 2; } 
 .div2 { grid-area: 1 / 2 / 2 / 3; } 
@@ -19,16 +23,32 @@ grid-row-gap: 0px;
 
 #yellow {
 	background-color: #febf04;
+	font-family: courier, monospace;
+	text-align: center;
+	color: white;
+	font-size: 60px;
 }
 
 #red {
 	background-color: red;
+	font-family: courier, monospace;
+	text-align: center;
+	color: white;
+	font-size: 60px;
 }
 
 #blue {
 	background-color: blue;
+	font-family: courier, monospace;
+	text-align: center;
+	color: white;
+	font-size: 60px;
 }
 
 #green {
 	background-color: green;
+	font-family: courier, monospace;
+	text-align: center;
+	color: white;
+	font-size: 60px;
 }
