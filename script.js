@@ -48,7 +48,7 @@ clockDivCairo.innerText = hours + ":" + minutes + ":" + seconds + " " + meridiem
 
 }
 
-displayTime(nyc);
+displayTime();
 displayTime(tokyo);
 displayTime(london);
 displayTime(cairo);
