@@ -6,11 +6,24 @@
 </head>
 <body>
 	<div class="container">
-		<div class="yellow" id="nyc">New York City</div>
-		<div class="red" id="tokyo">Tokyo</div>
-		<div class="blue" id="london">London</div>
-		<div class="green" id="cairo">Cairo</div>
+		<div class="yellow" id="nyc">
+			New York City
+			<!-- Add another div to overwrite the inner HTML to keep the country name-->
+			<div id="nyc-time"></div>
+		</div>
+		<div class="red" id="tokyo">
+			Tokyo
+			<div id="tokyo-time"></div>
+		</div>
+		<div class="blue" id="london">
+			London
+			<div id="london-time"></div>
+		</div>
+		<div class="green" id="cairo">
+			Cairo
+			<div id="cairo-time"></div>
+		</div>
 	</div>
 </body>
-<script scr="./script.js"></script>
+<script src="./script.js"></script>
 </html>
